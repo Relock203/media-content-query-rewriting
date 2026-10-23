@@ -1,0 +1,811 @@
+[
+  {
+  "id": 1,
+  "history": [
+    {
+      "role": "user",
+      "content": "Посоветуй фантастические фильмы из 90-х"
+    }
+  ],
+  "query": "Нет, лучше что-нибудь из 80-х",
+  "rewrite": "Фантастические фильмы из 80-х",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "substitution"
+  ],
+  "rewrite_needed": true
+ },
+  {
+    "id": 2,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найди фильмы про путешествия во времени"
+    }
+  ],
+  "query": "А из девяностых?",
+  "rewrite": "Фильмы про путешествия во времени из 90-х",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "specialization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 3,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найди фильмы про пиратов"
+    }
+  ],
+  "query": "Не, давай которые старее 1990 года",
+  "rewrite": "Фильмы про пиратов, которые вышли раньше 1990 года",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "specialization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 4,
+  "history": [
+    {
+      "role": "user",
+      "content": "Фильмы про восстание машин"
+    }
+  ],
+  "query": "Только американские",
+  "rewrite": "Американские фильмы про восстание машин",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "specialization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 5,
+  "history": [
+    {
+      "role": "user",
+      "content": "Хочу посмотреть фантастику"
+    }
+  ],
+  "query": "Давай, которые снял Джеймс Кэмерон",
+  "rewrite": "Фантастические фильмы, снятые Джеймсом Кэмероном",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "specialization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 6,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найди ужастик"
+    }
+  ],
+  "query": "Только те, которые вышли после 2000 года",
+  "rewrite": "Фильмы ужасов, которые вышли после 2000 года",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "specialization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 7,
+  "history": [
+    {
+      "role": "user",
+      "content": "Романтические комедии"
+    }
+  ],
+  "query": "А какие из них сняты в России",
+  "rewrite": "Романтические комедии, снятые в России",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "specialization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 8,
+  "history": [
+    {
+      "role": "user",
+      "content": "Советские фильмы про отпуск"
+    }
+  ],
+  "query": "Давай добавим к ним ещё и российские",
+  "rewrite": "Советские и российские фильмы про отпуск",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "generalization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 9,
+  "history": [
+    {
+      "role": "user",
+      "content": "Хочу голливудские фильмы Кристофера Нолана"
+    }
+  ],
+  "query": "Необязательно Нолана, подойдут любые голливудские",
+  "rewrite": "Голливудские фильмы",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "generalization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 10,
+  "history": [
+    {
+      "role": "user",
+      "content": "Хочу посмотреть корейскую драму"
+    }
+  ],
+  "query": "Давай добавим японские к ней",
+  "rewrite": "Корейские и японские драмы",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "generalization"
+  ],
+  "rewrite_needed": true
+  },
+  {
+    "id": 11,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найти американские фильмы про путешествия во времени"
+    }
+  ],
+  "query": "Давай лучше российские",
+  "rewrite": "Российские фильмы про путешествия во времени",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "substitution"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 12,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найди фильмы про пиратов черного моря"
+    }
+  ],
+  "query": "Теперь только про пиратов карибского моря",
+  "rewrite": "Фильмы про пиратов карибского моря",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "substitution"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 13,
+  "history": [
+    {
+      "role": "user",
+      "content": "Фильмы про восстание машин в жанре хоррор"
+    }
+  ],
+  "query": "Теперь фильмы в таком же жанре, только про преступников",
+  "rewrite": "Фильмы про преступников в жанре хоррор",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "substitution"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 14,
+  "history": [
+    {
+      "role": "user",
+      "content": "Хочу посмотреть фантастику"
+    }
+  ],
+  "query": "Только без ужасов",
+  "rewrite": "Фантастические фильмы без ужасов",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "exclusion"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 15,
+  "history": [
+    {
+      "role": "user",
+      "content": "Фильм про роботов"
+    }
+  ],
+  "query": "Кроме тех фильмов, в которых они захватывают мир",
+  "rewrite": "Фильмы про роботов, исключая фильмы, в которых роботы захватывают мир",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "exclusion"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 16,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найди фильмы про Вторую мировую войну"
+    }
+  ],
+  "query": "А теперь хочу мультфильмы про животных",
+  "rewrite": "А теперь хочу мультфильмы про животных",
+  "linguistic_features": [
+    "no_dependency"
+  ],
+  "intent_operations": [
+    "topic_shift"
+  ],
+  "rewrite_needed": false
+  },
+    {
+    "id": 17,
+  "history": [
+    {
+      "role": "user",
+      "content": "Найди фильмы о путешествиях на Марс"
+    }
+  ],
+  "query": "А про путешествия на другие планеты?",
+  "rewrite": "Фильмы про путешествия на планеты, кроме Марса",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "parallel_move"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 18,
+  "history": [
+    {
+      "role": "user",
+      "content": "Советские фильмы про отпуск"
+    }
+  ],
+  "query": "Теперь российские фильмы на эту же тему",
+  "rewrite": "Российские фильмы про отпуск",
+  "linguistic_features": [
+    "coreference"
+  ],
+  "intent_operations": [
+    "parallel_move"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 19,
+  "history": [
+    {
+      "role": "user",
+      "content": "Посоветуй хорошие детективы"
+    },
+    {
+      "role": "assistant",
+      "content": "«Семь», «Зодиак»."
+    }
+  ],
+  "query": "Ещё варианты",
+  "rewrite": "Хорошие детективные фильмы, кроме „Семи“ и „Зодиака“",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "continue"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 20,
+  "history": [
+    {
+      "role": "user",
+      "content": "Мне очень понравился „Интерстеллар“"
+    }
+  ],
+  "query": "Посоветуй что-нибудь похожее",
+  "rewrite": "Фильмы, похожие на „Интерстеллар“",
+  "linguistic_features": [
+    "ellipsis"
+  ],
+  "intent_operations": [
+    "similarity"
+  ],
+  "rewrite_needed": true
+  },
+    {
+    "id": 21,
+  "history": [],
+  "query": "Посоветуй фильмы про выживание на острове",
+  "rewrite": "Посоветуй фильмы про выживание на острове",
+  "linguistic_features": [
+    "no_dependency"
+  ],
+  "intent_operations": [
+    "initial"
+  ],
+  "rewrite_needed": false
+  },
+    {
+    "id": 22,
+  "history": [],
+  "query": "Фильмы с Дэниелом Рэдклиффом",
+  "rewrite": "Фильмы с Дэниелом Рэдклиффом",
+  "linguistic_features": [
+    "no_dependency"
+  ],
+  "intent_operations": [
+    "initial"
+  ],
+  "rewrite_needed": false
+  },
+      {
+    "id": 23,
+  "history": [
+    {
+      "role": "user",
+      "content": "Фантастические фильмы после 2010 года"
+    }
+  ],
+  "query": "Все фантастические фильмы",
+  "rewrite": "Все фантастические фильмы",
+  "linguistic_features": [
+    "no_dependency"
+  ],
+  "intent_operations": [
+    "generalization"
+  ],
+  "rewrite_needed": false
+  },
+  {
+    "id": 24,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу фильм про людей, которые оказались отрезаны от цивилизации."
+      },
+      {
+        "role": "user",
+        "content": "Пусть действие происходит зимой."
+      },
+      {
+        "role": "user",
+        "content": "И чтобы выживали вместе, а не поодиночке."
+      }
+    ],
+    "query": "И обязательно на основе реальных событий.",
+    "rewrite": "Фильмы, основанные на реальных событиях, о совместном выживании группы людей зимой в изоляции от цивилизации.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 25,
+    "history": [
+      {
+        "role": "user",
+        "content": "Ищу мультфильм про дружбу человека и животного."
+      },
+      {
+        "role": "user",
+        "content": "Нужен полнометражный, чтобы посмотреть с ребёнком шести лет."
+      },
+      {
+        "role": "user",
+        "content": "Без грустных сцен."
+      }
+    ],
+    "query": "Грустные сцены всё-таки можно.",
+    "rewrite": "Полнометражные мультфильмы про дружбу человека и животного для просмотра с ребёнком шести лет.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["generalization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 26,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу документальный фильм о работе поваров."
+      },
+      {
+        "role": "user",
+        "content": "Чтобы показывали обычную кухню ресторана, а не кулинарное соревнование."
+      },
+      {
+        "role": "user",
+        "content": "По длительности — не больше полутора часов."
+      }
+    ],
+    "query": "Лучше художественный вместо документального.",
+    "rewrite": "Художественные фильмы о работе поваров на обычной кухне ресторана, без кулинарных соревнований, продолжительностью не больше полутора часов.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["substitution"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 27,
+    "history": [
+      {
+        "role": "user",
+        "content": "Нужен детектив про исчезновение человека."
+      },
+      {
+        "role": "user",
+        "content": "Чтобы расследовал кто-то из его близких."
+      },
+      {
+        "role": "user",
+        "content": "Пусть действие происходит в маленьком городе."
+      }
+    ],
+    "query": "Хочу неожиданную развязку, но без похищений ради выкупа.",
+    "rewrite": "Детективные фильмы про исчезновение человека в маленьком городе, где расследование ведёт кто-то из близких пропавшего, с неожиданной развязкой и без похищений ради выкупа.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["specialization", "exclusion"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 28,
+    "history": [
+      {
+        "role": "user",
+        "content": "Что посмотреть из мультфильмов про отношения в семье?"
+      },
+      {
+        "role": "assistant",
+        "content": "«Тайна Коко» и «Энканто»."
+      },
+      {
+        "role": "user",
+        "content": "Эти уже смотрели, есть другие?"
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда «Митчеллы против машин»."
+      }
+    ],
+    "query": "Есть ещё? Всё, что ты перечислил, уже видели.",
+    "rewrite": "Мультфильмы про отношения в семье, кроме мультфильмов «Тайна Коко», «Энканто» и «Митчеллы против машин».",
+    "linguistic_features": ["ellipsis", "coreference"],
+    "intent_operations": ["continue"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 29,
+    "history": [
+      {
+        "role": "user",
+        "content": "Подбери фильмы или мультфильмы про дружбу ребёнка с необычным существом."
+      },
+      {
+        "role": "assistant",
+        "content": "«Инопланетянин», «Лило и Стич» и «Стальной гигант»."
+      }
+    ],
+    "query": "Второй из списка я уже видел, исключи его из поиска.",
+    "rewrite": "Фильмы и мультфильмы про дружбу ребёнка с необычным существом, кроме мультфильма «Лило и Стич».",
+    "linguistic_features": ["coreference"],
+    "intent_operations": ["exclusion"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 30,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочется фильм про необычную дружбу, но без мрачного финала."
+      },
+      {
+        "role": "assistant",
+        "content": "Попробуйте «1+1»."
+      }
+    ],
+    "query": "Какие фильмы похожи на твою рекомендацию?",
+    "rewrite": "Фильмы про необычную дружбу, похожие на «1+1», без мрачного финала.",
+    "linguistic_features": ["coreference"],
+    "intent_operations": ["similarity"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 31,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу фильмы с необычной хронологией событий."
+      },
+      {
+        "role": "assistant",
+        "content": "«День сурка», «Помни» и «Начало»."
+      }
+    ],
+    "query": "Из этих трёх оставь фильмы, где один и тот же день повторяется.",
+    "rewrite": "Фильмы из списка «День сурка», «Помни» и «Начало», в которых один и тот же день повторяется.",
+    "linguistic_features": ["coreference"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 32,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочется фильм про жизнь в маленьком приморском городе."
+      }
+    ],
+    "query": "Пусть будет что-нибудь спокойное, чтобы выдохнуть после работы.",
+    "rewrite": "Спокойные фильмы про жизнь в маленьком приморском городе, чтобы расслабиться после работы.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 33,
+    "history": [],
+    "query": "Хочу напряжённый фильм, чтобы до самого конца было непонятно, кому можно доверять.",
+    "rewrite": "Хочу напряжённый фильм, чтобы до самого конца было непонятно, кому можно доверять.",
+    "linguistic_features": ["no_dependency"],
+    "intent_operations": ["initial"],
+    "rewrite_needed": false
+  },
+  {
+    "id": 34,
+    "history": [
+      {
+        "role": "user",
+        "content": "Ищу фильм о том, как взрослые дети заново учатся общаться с родителями."
+      }
+    ],
+    "query": "Хочется чего-то трогательного, чтобы в конце осталось тёплое чувство, а не тяжесть.",
+    "rewrite": "Трогательные фильмы о том, как взрослые дети заново учатся общаться с родителями, оставляющие в конце тёплое чувство, а не тяжесть.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 35,
+    "history": [
+      {
+        "role": "user",
+        "content": "На вечер с друзьями ищем фильм, который будет интересно потом обсудить."
+      },
+      {
+        "role": "user",
+        "content": "Хочется запутанный сюжет, все будут смотреть внимательно."
+      }
+    ],
+    "query": "Не длиннее двух часов, завтра всем рано вставать.",
+    "rewrite": "Фильмы с запутанным сюжетом для внимательного просмотра с друзьями вечером и последующего обсуждения, продолжительностью не больше двух часов.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 36,
+    "history": [],
+    "query": "Нужен полнометражный мультфильм для семейного вечера с ребёнком пяти лет, без сцен разлуки с родителями.",
+    "rewrite": "Нужен полнометражный мультфильм для семейного вечера с ребёнком пяти лет, без сцен разлуки с родителями.",
+    "linguistic_features": ["no_dependency"],
+    "intent_operations": ["initial"],
+    "rewrite_needed": false
+  },
+  {
+    "id": 37,
+    "history": [
+      {
+        "role": "user",
+        "content": "Ищу короткометражные мультфильмы без диалогов."
+      },
+      {
+        "role": "user",
+        "content": "Буду смотреть в обеденный перерыв, без наушников."
+      }
+    ],
+    "query": "Нужно успеть за десять минут вместе с титрами.",
+    "rewrite": "Короткометражные мультфильмы без диалогов для просмотра в обеденный перерыв без наушников, общей продолжительностью не больше десяти минут с учётом титров.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 38,
+    "history": [],
+    "query": "Документальные фильмы о восстановлении старых зданий.",
+    "rewrite": "Документальные фильмы о восстановлении старых зданий.",
+    "linguistic_features": ["no_dependency"],
+    "intent_operations": ["initial"],
+    "rewrite_needed": false
+  },
+  {
+    "id": 39,
+    "history": [
+      {
+        "role": "user",
+        "content": "Найди мультфильмы про подводный мир."
+      }
+    ],
+    "query": "Ищу фильмы о журналистских расследованиях без сцен пыток.",
+    "rewrite": "Ищу фильмы о журналистских расследованиях без сцен пыток.",
+    "linguistic_features": ["no_dependency"],
+    "intent_operations": ["topic_shift"],
+    "rewrite_needed": false
+  },
+  {
+    "id": 40,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу фильм про контакт с инопланетянами."
+      },
+      {
+        "role": "assistant",
+        "content": "Больше интересует исследование неизвестного или противостояние?"
+      },
+      {
+        "role": "user",
+        "content": "Исследование, без военных действий."
+      },
+      {
+        "role": "assistant",
+        "content": "Есть пожелания по длительности?"
+      },
+      {
+        "role": "user",
+        "content": "До двух часов. И чтобы главными героями были учёные."
+      },
+      {
+        "role": "assistant",
+        "content": "Насколько важен год выпуска?"
+      },
+      {
+        "role": "user",
+        "content": "Не важен, старые тоже подойдут."
+      }
+    ],
+    "query": "Подбери музыкальные мультфильмы про подготовку к выступлению на сцене.",
+    "rewrite": "Подбери музыкальные мультфильмы про подготовку к выступлению на сцене.",
+    "linguistic_features": ["no_dependency"],
+    "intent_operations": ["topic_shift"],
+    "rewrite_needed": false
+  },
+  {
+    "id": 41,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу фильмы о работе спасателей."
+      },
+      {
+        "role": "user",
+        "content": "Интереснее операции в горах."
+      }
+    ],
+    "query": "Найди фильмы о спасательных операциях в горах, основанные на реальных событиях.",
+    "rewrite": "Найди фильмы о спасательных операциях в горах, основанные на реальных событиях.",
+    "linguistic_features": ["no_dependency"],
+    "intent_operations": ["specialization"],
+    "rewrite_needed": false
+  },
+  {
+    "id": 42,
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу мультфильмы, где главные герои — только животные."
+      }
+    ],
+    "query": "Не только животные: люди тоже подойдут, но только не охотники в главных ролях.",
+    "rewrite": "Мультфильмы, в которых главные герои — животные, люди или животные вместе с людьми, но никто из главных героев не является охотником.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["generalization", "exclusion"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 43,
+    "history": [
+      {
+        "role": "user",
+        "content": "Найди фильмы про ограбления без перестрелок."
+      },
+      {
+        "role": "user",
+        "content": "Обязательно про ограбление банка."
+      }
+    ],
+    "query": "Перестрелки допустимы, но без захвата детей в заложники.",
+    "rewrite": "Фильмы про ограбление банка без захвата детей в заложники.",
+    "linguistic_features": ["ellipsis"],
+    "intent_operations": ["generalization", "exclusion"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 44,
+    "history": [
+      {
+        "role": "user",
+        "content": "Ищу приключенческий фильм про поиски сокровищ для взрослой компании."
+      },
+      {
+        "role": "user",
+        "content": "Без жестокости."
+      }
+    ],
+    "query": "А какие приключенческие мультфильмы на ту же тему можно посмотреть с детьми семи лет, тоже без жестокости?",
+    "rewrite": "Приключенческие мультфильмы про поиски сокровищ для просмотра с детьми семи лет, без жестокости.",
+    "linguistic_features": ["coreference"],
+    "intent_operations": ["parallel_move"],
+    "rewrite_needed": true
+  },
+  {
+    "id": 45,
+    "history": [
+      {
+        "role": "user",
+        "content": "Мне понравилось «Прибытие», особенно попытки расшифровать язык пришельцев."
+      },
+      {
+        "role": "user",
+        "content": "А в «Контакте» зацепило ожидание встречи с другим разумом."
+      },
+      {
+        "role": "user",
+        "content": "Сейчас хочется именно про общение, а не про путешествия по космосу."
+      }
+    ],
+    "query": "Найди фильмы, похожие на первый по попыткам понять язык и образ мышления пришельцев, без военного противостояния. Оба названных фильма исключи.",
+    "rewrite": "Фильмы, похожие на «Прибытие» по попыткам понять язык и образ мышления пришельцев, с акцентом на общении, а не на космических путешествиях, без военного противостояния, кроме фильмов «Прибытие» и «Контакт».",
+    "linguistic_features": ["coreference"],
+    "intent_operations": ["similarity", "exclusion"],
+    "rewrite_needed": true
+  }
+]
